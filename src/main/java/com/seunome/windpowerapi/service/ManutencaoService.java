@@ -34,3 +34,8 @@ public class ManutencaoService {
 }
 // This service class provides methods to interact with the Manutencao entity.
 // It uses the ManutencaoRepository to perform CRUD operations.
+// The methods are: listarTodas, buscarPorId, salvar, deletar.
+// The service class is annotated with @Service, indicating it's a Spring service class.
+// The constructor injects the ManutencaoRepository dependency.
+// The listarTodas method retrieves all Manutencao records from the database.
+// The buscarPorId method retrieves a specific Manutencao record by its ID.
