@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: windpower-api
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  profiles:
+    active: dev
